@@ -1,5 +1,7 @@
 ﻿//string nameInput=string.Empty;
-Console.WriteLine("Ingrese un Numero: ");
+
+//conditional 
+/*Console.WriteLine("Ingrese un Numero: ");
 int numberInput = Convert.ToInt32(Console.ReadLine());
 
 if(numberInput > 0)
@@ -13,6 +15,12 @@ else if(numberInput < 0)
 else
 {
     Console.WriteLine($"El numero {numberInput} es cero");
-}
+}*/
 
-//minuto 9 del video 11 https://www.youtube.com/watch?v=rar9qctS3wo
+//operators
+Console.WriteLine("Ingrese primer Numero: ");
+double a = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Ingrese segundo Numero: ");
+double b = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine($"La suma: {a+b}, resta: {a-b}, multiplicación: {a*b}, división: {a/b}");
